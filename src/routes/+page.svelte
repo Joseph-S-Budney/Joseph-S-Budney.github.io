@@ -1,7 +1,12 @@
 <script lang="ts">
-    let num = 0;
+    import Typewriter from 'svelte-typewriter'
 </script>
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
-<button on:click={()=>{num++}}>{num}</button>
+<span class="mb-4 text-center leading-none md:text-5xl lg:text-6xl dark:text-white"><h1>Joseph Budney</h1></span>
+<div class="text-4xl text-center dark:text-white">
+    <Typewriter mode=loop --cursor-color=white interval=100 keepCursorOnFinish=true>
+        <h2>front-end</h2>
+        <h2>back-end</h2>
+        <h2>freelance</h2>
+        <h2>fun</h2>
+    </Typewriter>
+</div>
