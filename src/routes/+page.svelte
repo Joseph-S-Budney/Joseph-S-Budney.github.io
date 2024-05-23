@@ -14,6 +14,25 @@
     }
 
 </script>
+
+<nav class="fixed w-full top-0 left-0">
+<ul class="flex">
+    <li class="flex-1 mr-2">
+        <a class="text-center block border rounded py-2 px-4 bg-primary hover:bg-ring text-primary-foreground" 
+        href="#home-hero" on:click={handleAnchorClick}>Home</a>
+    </li>
+    <li class="flex-1 mr-2">
+        <a class="text-center block border border-white rounded hover:border-gray-200 text-secondary-foreground hover:bg- py-2 px-4" 
+        href="#about" on:click={handleAnchorClick}>About Me</a>
+    </li>
+    <li class="text-center flex-1">
+        <a class="text-center block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-2 px-4" 
+        href="#" on:click={handleAnchorClick}>Disabled Item</a>
+    </li>
+</ul>
+</nav>
+
+
 <div id="home-hero">
     <div id="home-hero__content">
         <span class="mb-4 text-center leading-none dark:text-white md:text-5xl lg:text-6xl"
@@ -21,7 +40,7 @@
         >
         <div class="text-center leading-loose flex text-4xl dark:text-white">
             <p class="">I do... &nbsp;</p>
-            <div class="text-yellow-600">
+            <div class="text-primary">
                 <Typewriter mode="loop" --cursor-color="white">
                     <h2> front-end</h2>
                     <h2> back-end</h2>
@@ -37,13 +56,7 @@
 <a id="about"></a>
 <h2 class="text-4xl">About Me</h2>
 <p class="w-4 mx-auto text-center">
-    Lorem ipsum dolor sit amet, consectetur adipiscing 
-    elit. Praesent tristique dui nec iaculis consectetur. 
-    Fusce condimentum magna in condimentum rutrum. Fusce 
-    risus ante, fringilla consectetur scelerisque a, luctus
-    ac ante. Vivamus aliquam tincidunt dolor, a mollis
-    justo. Fusce id magna at nisl lobortis porta vitae
-    vitae nisi. Nulla vel lobortis ligula. Quisque quis
+
 </p>
 <style>
     #home-hero{
