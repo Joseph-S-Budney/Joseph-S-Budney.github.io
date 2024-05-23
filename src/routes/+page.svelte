@@ -18,15 +18,15 @@
 <nav class="fixed w-full top-0 left-0">
 <ul class="flex">
     <li class="flex-1 mr-2">
-        <a class="text-center block border rounded py-2 px-4 bg-primary hover:bg-ring text-primary-foreground" 
-        href="#home-hero" on:click={handleAnchorClick}>Home</a>
+        <a class="text-center block border border-border rounded py-2 px-4 bg-primary hover:bg-ring text-primary-foreground" 
+        href="#home-hero" on:click={handleAnchorClick}>Active Item</a>
     </li>
     <li class="flex-1 mr-2">
-        <a class="text-center block border border-white rounded hover:border-gray-200 text-secondary-foreground hover:bg- py-2 px-4" 
+        <a class="text-center block border border-border rounded bg-secondary text-secondary-foreground hover:bg-muted-foreground py-2 px-4" 
         href="#about" on:click={handleAnchorClick}>About Me</a>
     </li>
     <li class="text-center flex-1">
-        <a class="text-center block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-2 px-4" 
+        <a class="text-center block border border-border rounded bg-secondary text-secondary-foreground hover:bg-muted-foreground py-2 px-4" 
         href="#" on:click={handleAnchorClick}>Disabled Item</a>
     </li>
 </ul>
