@@ -8,3 +8,4 @@
 
 ## inspiration
 - [Ram Maheshwari](https://www.rammaheshwari.com/)
+- [Matt Farley](https://web.archive.org/web/20160402133659/http://mattfarley.ca/)
