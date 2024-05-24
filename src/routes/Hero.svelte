@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-    <Button href="#about" variant="ghost" on:click={slide.handleAnchorClick} class="left-1/2 -translate-x-1/2 bottom-10 absolute">About Me</Button>
+    <Button href="#about" variant="ghost" on:click={slide.handleAnchorClick} class="left-1/2 -translate-x-1/2 bottom-10 absolute">Learn more about what I do</Button>
 </div>
 
 <style>
